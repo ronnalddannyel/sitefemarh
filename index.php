@@ -76,9 +76,11 @@
         
 
       <li class="nav-item active">
+        <a href="./index.php">
         <button type="button" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Home
         </button>
+        </a>
       </li>
 
 
@@ -87,10 +89,10 @@
             Institucional
         </button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Quem somos</a></li>
-            <li><a class="dropdown-item" href="#">Presidência</a></li>
-            <li><a class="dropdown-item" href="#">Fundo Estadual do Meio Ambiente - FEMA</a></li>
-            <li><a class="dropdown-item" href="#">Biblioteca</a></li>
+            <li><a class="dropdown-item" href="./Institucional/quem somos/">Quem somos</a></li>
+            <li><a class="dropdown-item" href="./Institucional/presidencia/">Presidência</a></li>
+            <li><a class="dropdown-item" href="./Institucional/fema/">Fundo Estadual do Meio Ambiente - FEMA</a></li>
+            <li><a class="dropdown-item" href="./Institucional/biblioteca/">Biblioteca</a></li>
         </ul>
       </li>
 
@@ -127,12 +129,12 @@
             Diretorias
         </button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Diretoria de Recursos Hídricos - DRHI</a></li>
-            <li><a class="dropdown-item" href="#">Diretoria de Gestão Florestal - DIFLOR</a></li>
-            <li><a class="dropdown-item" href="#">Diretoria de Licenciamento e Gestão Ambiental - DLGA</a></li>
-            <li><a class="dropdown-item" href="#">Diretoria de Monitoramento e Controle Ambiental - DMCA</a></li>
-            <li><a class="dropdown-item" href="#">Diretoria Administrativa e Financeira - DIRAF</a></li>
-            <li><a class="dropdown-item" href="#">Diretoria de Pesquisa e Tecnologia e Gestão Territorial - DPTGT</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-recursos-hidricos/">Diretoria de Recursos Hídricos - DRHI</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-gestao-florestal-diflor/">Diretoria de Gestão Florestal - DIFLOR</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-licenciamento-e-gestao-ambiental-dlga/">Diretoria de Licenciamento e Gestão Ambiental - DLGA</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-monitoramento-e-controle-ambiental-dmca/">Diretoria de Monitoramento e Controle Ambiental - DMCA</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-administrativa-e-financeira-diraf/">Diretoria Administrativa e Financeira - DIRAF</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-pesquisa-e-tecnologia-e-gestao-territorial-dptgt/">Diretoria de Pesquisa e Tecnologia e Gestão Territorial - DPTGT</a></li>
         </ul>
       </li>
 

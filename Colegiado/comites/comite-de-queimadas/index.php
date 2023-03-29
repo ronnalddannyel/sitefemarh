@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../../bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <style>
         body {
@@ -55,11 +55,6 @@
             width: 100%;
             margin: 0;
             margin-top: 10%;
-        }
-
-        div#img1 img{
-            width: 100%;
-            max-height: 230px;
         }
 
         div#op {
@@ -124,22 +119,18 @@
             height: 100%;
         }
 
-        div.card-body{
-          background-color: #f7f7f7;
-          padding: 8%;
-        }
-
-        div.card-body h5{
-          margin-bottom: 9%;
-          font-weight: bold;
-        }
-
-        div.card-body P, h5{
+        div#centro h4{
           text-align: center;
         }
 
-        div.card-body button{
-          margin: 10% 0 0 35%;
+        button.accordion-button {
+            background-color: #f4f3f3;
+            margin-bottom: 0.2%;
+            border-radius: 10px;
+        }
+
+        div#flush-collapseThree a{
+            text-decoration: none;
         }
 
         /* Smaller than standard 960 (devices and browsers) */
@@ -147,10 +138,10 @@
             footer{
                 height: 33%;
             }
-            div.row {
+            div#centro {
                 margin: 1% 20% 0 20%;
             }
-            div#centro {
+            div#sistema {
                 margin: 1% 20% 0 20%;
             }
         }
@@ -160,39 +151,45 @@
             footer{
                 height: 25%;
             }
+            div#centro {
+                margin: 2% 4% 0 4%;
+            }
+            div#base-link1 h2 {
+              font-size: 12px;
+            }
         }
 
         /* Smaller than standard 960 (devices and browsers) */
         @media only screen and (max-width: 959px) {
-            h6, h2{
+            h6{
                 font-size: 10px;
             }
         }
 
         /* Tablet Portrait size to standard 960 (devices and browsers) */
         @media only screen and (min-width: 768px) and (max-width: 959px) {
-            h6, h2{
+            h6{
                 font-size: 12px;
             }
         }
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
-            h6, h2{
+            h6{
                 font-size: 14px;
             }
         }
 
         /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
         @media only screen and (min-width: 480px) and (max-width: 767px) {
-            h6, h2{
+            h6{
                 font-size: 9px;
             }
         }
 
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
         @media only screen and (max-width: 479px) {
-            h6, h2{
+            h6{
                 font-size: 7px;
             }
         }
@@ -204,7 +201,7 @@
 <!-- Logo Governo / FEMARH -->
     
     <div id="topo">
-        <img src="../imagens/FEMARH-LOGO1.png" alt="">
+        <img src="../../../imagens/FEMARH-LOGO1.png" alt="">
     </div>
 
 <!-- Menu Suspenso -->
@@ -331,103 +328,67 @@
 
 <!-- Centro   -->
 
-<div id="img1">
-    <img src="../imagens/map.jpg" alt="">
-</div>
-
 <div id="centro">
-    <p>A DPTGT compõe a estrutura da FEMARH por força da <b>Lei n° 1.642 de 25 de janeiro de 2022, no seu Art. 9°, inciso I.</b> A mesma está subordinada a Presidência da Fundação Estadual do Meio Ambiente e Recursos Hídricos do Estado de Roraima.</p>
 
-    <p>Compete a Diretoria:</p>
+    <h4>Comitê Estadual de Prevenção, Controle de Queimadas e Combate aos Incêndios Florestais de Roraima</h4>
 
-    <p>
-        <ul>
-            <li>Gestão do SICAR – Sistema Nacional do Cadastro Ambiental Rural;</li>
-            <li>Gestão do SEUC – Sistema Estadual de Unidades de Conservação;</li>
-            <li>Gestão das Unidades de Conservação criadas pela Lei 1.704 de 15 de julho de 2022;</li>
-            <li>Elaborar e executar projetos de desenvolvimento florestal sustentável;</li>
-            <li>Promover a elaboração e implementação de ferramentas de geoinformações;</li>
-            <li>Aplicar tecnologias de geoprocessamento e sensoriamento remoto com vista a fornecer um sistema de informações geográficas atualizado do Estado de Roraima;</li>
-            <li>Apoiar as ações de Educação Ambiental.</li>
-        </ul>
-    </p>
+    <p>O Comitê Estadual de Prevenção, Controle de Queimadas e Combate aos Incêndios Florestais de Roraima foi criado através do Decreto Nº. 3.321-E de 11 de dezembro de 1988 e alterado de acordo com o Decreto 5.198-E de 20 de março de 2003 e tem como objetivo conforme inciso I do Art. 5º direcionar as ações e políticas de educação, prevenção e controle de queimadas e combate a incêndios florestais.</p>
 </div>
 
-<!-- Card   -->
+<!-- Menu Sistemas   -->
 
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Hollywood Sign on The Hill" />
-      <div class="card-body">
-        <h5 class="card-title">DIVISÃO DE INFORMAÇÕES AMBIENTAIS</h5>
-        <p class="card-text">
-        DIVISÃO DE INFORMAÇÕES AMBIENTAIS
+<div id="sistema">
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <b>Objetivos do Comitê</b>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <p>
+            <ol>
+                <li>Direcionar as ações e políticas de educação e controle de queimadas e combate aos incêndios florestais;</li>
+                <li>Elaborar plano emergencial de controle de queimadas e combate aos incêndios florestais;</li>
+                <li>Apoiar na elaboração de um plano de ação para municípios situados na área atingida pelos incêndios florestais;</li>
+                <li>Indicar áreas de maior risco de ocorrência de incêndios;</li>
+                <li>Articular as ações de fiscalização e educação ambiental relacionadas às queimadas;</li>
+                <li>Utilizar as informações produzidas e sistematizadas pela Sala de Situação, na tomada de decisões quanto às ações relacionadas às queimadas e na divulgação dos graus de risco de incêndio florestal.</li>
+            </ol>            
         </p>
-        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Palm Springs Road" />
-      <div class="card-body">
-        <h5 class="card-title">DIVISÃO DE ESTATÍSTICA E GEOTECNOLOGIAS</h5>
-        <p class="card-text">
-        DIVISÃO DE ESTATÍSTICA E GEOTECNOLOGIAS
-        </p>
-        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
-      </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <b>Membros do Comitê</b>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <p>
+                Fundação Estadual de Meio Ambiente, Ciência e Tecnologia de Roraima <br>
+                Secretaria de Estado de Agricultura e Abastecimento <br>
+                Defesa Civil <br>
+                Instituto de Terras e Colonização de Roraima <br>
+                Secretaria de Estado do Índio  <br>
+                Grupo de Trabalho Amazônico  <br>
+                Federação dos Trabalhadores na Agricultura em Roraima <br>
+                Central dos Assentados de Roraima <br>
+                Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis <br>
+                Instituto Nacional de Colonização e Reforma Agrária <br>
+                Instituto Nacional de Pesquisas da Amazônia <br>
+                Empresa Brasileira de Pesquisas Agropecuária <br>
+                Fundação Nacional do Índio 
+            </p>
+        </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Los Angeles Skyscrapers" />
-      <div class="card-body">
-        <h5 class="card-title">DIVISÃO DE GESTÃO DE FLORESTAS PÚBLICAS</h5>
-        <p class="card-text">DIVISÃO DE GESTÃO DE FLORESTAS PÚBLICAS</p>
-        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Los Angeles Skyscrapers" />
-      <div class="card-body">
-        <h5 class="card-title">DIVISÃO DE ESTUDOS SÓCIOS ECONÔMICOS E AMBIENTAIS</h5>
-        <p class="card-text">DIVISÃO DE ESTUDOS SÓCIOS ECONÔMICOS E AMBIENTAIS</p>
-        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Los Angeles Skyscrapers" />
-      <div class="card-body">
-        <h5 class="card-title">DIVISÃO DE PLANEJAMENTO E CADASTRO</h5>
-        <p class="card-text">DIVISÃO DE PLANEJAMENTO E CADASTRO</p>
-        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Skyscrapers" />
-      <div class="card-body">
-        <h5 class="card-title">DIVISÃO DE GESTÃO E POLÍTICA TERRITORIAL</h5>
-        <p class="card-text">
-        DIVISÃO DE GESTÃO E POLÍTICA TERRITORIAL
-        </p>
-        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
-      </div>
-    </div>
-  </div>
+</div>
+
 </div>
 
 <!-- Base -->
@@ -489,7 +450,7 @@
 
 
 
-<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+<script src="../../../bootstrap/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
