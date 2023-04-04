@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <style>
         body {
@@ -123,19 +123,13 @@
           text-align: center;
         }
 
-        button#btns {
-            color:black;
-            background-color: transparent;
-            border-color: #4a8a45;
-            color: #4a8a45;
-            border-width: 2px;
-            margin: 1.5%;
-            padding: 1.2% 2% 1.2% 2%;
+        button.accordion-button {
+            border-left: solid 0.1px #d3d3d3;
+            border-right: solid 0.1px #d3d3d3;
         }
 
-        button#btns:hover {
-            background-color: #4a8a45;
-            color:white;
+        div.accordion-body a{
+            text-decoration: none;
         }
 
         /* Smaller than standard 960 (devices and browsers) */
@@ -146,11 +140,8 @@
             div#centro {
                 margin: 1% 20% 0 20%;
             }
-            div#btn{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+            div#sistema {
+                margin: 1% 20% 0 20%;
             }
         }
 
@@ -209,7 +200,7 @@
 <!-- Logo Governo / FEMARH -->
     
     <div id="topo">
-        <img src="../imagens/FEMARH-LOGO1.png" alt="">
+        <img src="../../imagens/FEMARH-LOGO1.png" alt="">
     </div>
 
 <!-- Menu Suspenso -->
@@ -338,18 +329,43 @@
 
 <div id="centro">
 
-    <h2><b>Banco de Leis</b></h2> <br><br>
-
-    <div id="btn">
-        <button type="button" class="btn btn-success" id="btns"><b>ESTATUTO FEMACT</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>RESOLUÇÕES</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>INSTRUÇÕES NORMATIVAS</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>LEIS</b></button>
-    </div>
+    <h2>Leis</h2>
 
 </div>
 
+<!-- Menu Sistemas   -->
 
+<div id="sistema">
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="border-top: solid 0.1px #d3d3d3;">
+        <b>Leis Ordinárias</b>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <a href="">LEI-ORDINARIA-1540-2021-RORAIMA-RR</a> <br>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading18">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse18" aria-expanded="false" aria-controls="flush-collapse18" style="border-bottom: solid 0.1px #d3d3d3;">
+      <b>Leis complementares</b>
+      </button>
+    </h2>
+    <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading18" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <a href="">LEI COMPLEMENTAR N. 323, DE 2 DE AGOSTO DE 2022</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
 
 <!-- Base -->
 
@@ -410,7 +426,7 @@
 
 
 
-<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+<script src="../../bootstrap/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>

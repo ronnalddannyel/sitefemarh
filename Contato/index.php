@@ -123,19 +123,23 @@
           text-align: center;
         }
 
-        button#btns {
-            color:black;
-            background-color: transparent;
-            border-color: #4a8a45;
-            color: #4a8a45;
-            border-width: 2px;
-            margin: 1.5%;
-            padding: 1.2% 2% 1.2% 2%;
+        button.accordion-button {
+            background-color: #f4f3f3;
+            margin-bottom: 0.2%;
+            border-radius: 10px;
+            font-size: 45.2%;
         }
 
-        button#btns:hover {
-            background-color: #4a8a45;
-            color:white;
+        div#centro{
+            display: inline-block;
+        }
+
+        div.paragrafo p{
+            text-align: justify;
+        }
+
+        div.card {
+            border: none;
         }
 
         /* Smaller than standard 960 (devices and browsers) */
@@ -146,12 +150,20 @@
             div#centro {
                 margin: 1% 20% 0 20%;
             }
-            div#btn{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+            div#sistema {
+                margin: 1% 20% 0 20%;
             }
+            div.paragrafo{
+                width: 49%;
+                float: left;
+            }
+
+            div.col{
+                width: 45%;
+                float: left;
+                margin-right: 2.5%;
+            }
+
         }
 
         /* All Mobile Sizes (devices and browser) */
@@ -164,6 +176,9 @@
             }
             div#base-link1 h2 {
               font-size: 12px;
+            }
+            div.paragrafo{
+                margin-top: 15%;
             }
         }
 
@@ -336,20 +351,59 @@
 
 <!-- Centro   -->
 
+
+
 <div id="centro">
 
-    <h2><b>Banco de Leis</b></h2> <br><br>
+    <h1>Presidência</h1> <br><br>
 
-    <div id="btn">
-        <button type="button" class="btn btn-success" id="btns"><b>ESTATUTO FEMACT</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>RESOLUÇÕES</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>INSTRUÇÕES NORMATIVAS</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>LEIS</b></button>
+    <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title"><b>Formulário de contato</b></h2><br>
+
+        <form>
+  <!-- Name input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form4Example1">Nome</label>
+    <input type="text" id="form4Example1" class="form-control" />
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form4Example2">Email</label>
+    <input type="text" id="form4Example2" class="form-control" />
+  </div>
+
+  <!-- Message input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form4Example3">Mensagem</label>
+    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+  </div>
+
+  <!-- Message input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form4Example4">Imagem</label>
+    <input type="file" id="form4Example4" class="form-control" />
+  </div>
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+</form>
+      </div>
+    </div>
+  </div>
+
+    <div class="paragrafo">
     </div>
 
+    <p><b>Email:</b> Gabinete.femarh@gmail.com </p>
+    <p><b>Endereço:</b> Av. Ville Roy, 4935 – São Pedro, Boa Vista – RR, 69306-665</p>
+    <p><b>Telefone:</b> (95) 2121-7930</p>
+    <p><b>Atendimento:</b> 7:30h às 13:30h</p>
+
+
 </div>
-
-
 
 <!-- Base -->
 

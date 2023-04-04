@@ -119,23 +119,25 @@
             height: 100%;
         }
 
-        div#centro h2{
+        div.card-body{
+          background-color: #f7f7f7;
+          padding: 8%;
+        }
+
+        div.card-body h5{
+          margin-bottom: 9%;
+          font-weight: bold;
+        }
+
+        div.card-body P, h5{
           text-align: center;
         }
 
-        button#btns {
-            color:black;
-            background-color: transparent;
-            border-color: #4a8a45;
-            color: #4a8a45;
-            border-width: 2px;
-            margin: 1.5%;
-            padding: 1.2% 2% 1.2% 2%;
+        div.card-body button{
+          margin: 10% 0 0 35%;
         }
-
-        button#btns:hover {
-            background-color: #4a8a45;
-            color:white;
+        div#centro h2{
+          text-align: center;
         }
 
         /* Smaller than standard 960 (devices and browsers) */
@@ -143,14 +145,11 @@
             footer{
                 height: 33%;
             }
-            div#centro {
+            div.row {
                 margin: 1% 20% 0 20%;
             }
-            div#btn{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+            div#centro {
+                margin: 1% 20% 0 20%;
             }
         }
 
@@ -161,6 +160,9 @@
             }
             div#centro {
                 margin: 2% 4% 0 4%;
+            }
+            div.row {
+                margin: 1% 1% 0 1%;
             }
             div#base-link1 h2 {
               font-size: 12px;
@@ -334,22 +336,81 @@
 </div>
 </div>
 
-<!-- Centro   -->
-
 <div id="centro">
 
-    <h2><b>Banco de Leis</b></h2> <br><br>
+    <h2><b>CARTA DE SERVIÇOS</b></h2>
 
-    <div id="btn">
-        <button type="button" class="btn btn-success" id="btns"><b>ESTATUTO FEMACT</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>RESOLUÇÕES</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>INSTRUÇÕES NORMATIVAS</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>LEIS</b></button>
-    </div>
+    <p><h5>A Fundação Estadual do Meio Ambiente e Recursos Hídricos de Roraima apresenta a Carta de Serviços ao Cidadão que tem como objetivo informar o cidadão dos serviços prestados pela FEMARH e os respectivos compromissos de atendimento ao público.</h5></p>
 
+    <p>Com a implantação da Carta, buscamos promover a eficiência, a qualidade e a transparência dos serviços de atendimento, bem como facilitar o acesso do público, permitindo ao cidadão que conheça os serviços prestados.</p>
+
+    <p><h6>Compromissos de Atendimento:</h6></p>
+
+    <p>
+        <ul>
+            <li>Atender o cidadão com cortesia e respeito.</li>
+            <li>Assegurar um canal de resolução de problemas e de diálogo permanente com o cidadão.</li>
+            <li>Manter uma central de atendimento telefônico, facilitando o acesso do cidadão a FEMARH.</li>
+            <li>Prestar atendimento preferencial, conforme dispõe a Lei nº 10.048/2000, e a Lei nº 10.741/2003, para gestantes; pessoas idosas (acima de 60 anos); e portadores de necessidades especiais.</li>
+            <li>Realizar campanhas internas e treinamento dos servidores, buscando continuamente excelência nos serviços de atendimento.</li>
+            <li>Utilizar instrumentos de avaliação de satisfação e de captação de sugestões, com vistas ao aperfeiçoamento dos serviços.</li>
+            <li>Divulgar dias e horários de atendimento previstos em regulamentação específica.</li>
+            <li>Facilitar e agilizar o acesso aos serviços, colocando à disposição do jurisdicionado sistemas on-line na rede mundial de computadores.</li>
+            <li>Promover a modernização da estrutura física e tecnológica das unidades de atendimento e dos canais de comunicação com o público.</li>
+            <li>Manter na rede mundial de computadores meios de acesso à informação para pessoas com necessidades especiais.</li>
+            <li>Garantir segurança e limpeza das unidades de atendimento ao público.</li>
+        </ul>
+    </p>
+
+    <p style="font-size: 20px;">Nossa Carta de Serviços apresenta os principais serviços oferecidos pela Fundação Estadual do Meio Ambiente e Recursos Hídricos de Roraima, as formas de acessá-los, além de outras informações importantes.</p>
+
+    <p>Seja bem-vindo(a)! Este espaço é para você!</p>
 </div>
 
+<!-- Card   -->
 
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../imagens/map.jpg" class="card-img-top"
+        alt="Hollywood Sign on The Hill" />
+      <div class="card-body">
+        <h5 class="card-title">Carteira de pescador</h5>
+        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../imagens/map.jpg" class="card-img-top"
+        alt="Palm Springs Road" />
+      <div class="card-body">
+        <h5 class="card-title">Licença de embarcação</h5>
+        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../imagens/map.jpg" class="card-img-top"
+        alt="Los Angeles Skyscrapers" />
+      <div class="card-body">
+        <h5 class="card-title">Boletins</h5>
+        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../imagens/map.jpg" class="card-img-top"
+        alt="Los Angeles Skyscrapers" />
+      <div class="card-body">
+        <h5 class="card-title">Cadastro ambiental rural</h5>
+        <button type="button" class="btn btn-outline-dark">ACESSAR</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Base -->
 

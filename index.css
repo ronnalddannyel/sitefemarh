@@ -15,11 +15,6 @@ div.carousel-inner {
     padding: 20px;
 }
 
-#topo img{
-    width: 21%;
-    height: 21%;
-}
-
 #teste {
     background-color: transparent;
     border: none;
@@ -198,6 +193,21 @@ div.card:hover {
     box-shadow: 0 0 13px rgba(0,0,0,0.6);
 }
 
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+
+
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (min-width: 901px) {
     footer{
@@ -219,6 +229,21 @@ div.card:hover {
     div#titulo{
         margin: 6% 20% 0 20%;
     }
+    .dropdown-menu .dropdown-submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -1.5px;
+    }
+    
+    .dropdown-menu .dropdown-submenu-left {
+        right: 100%;
+        left: auto;
+    }
+    #topo img{
+        width: 21%;
+        height: 21%;
+    }
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -234,6 +259,22 @@ div.card:hover {
     }
     div#titulo{
         margin: 6% 2% 0 2%;
+    }
+    button.btn {
+        font-size: 12px;
+    }
+    a.dropdown-item {
+        font-size: 12px;
+    }
+    ul.navbar-nav {
+        min-width: 300px;
+    }
+    #topo img{
+        width: 50%;
+        height: 50%;
+    }
+    a.page-link {
+        font-size: 10px;
     }
 }
 

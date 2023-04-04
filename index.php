@@ -77,7 +77,7 @@
 
       <li class="nav-item active">
         <a href="./index.php">
-        <button type="button" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Home
         </button>
         </a>
@@ -85,7 +85,7 @@
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Institucional
         </button>
         <ul class="dropdown-menu">
@@ -106,77 +106,98 @@
                 <a class="dropdown-item" href="#">Conselhos  &raquo;</a>
                 <ul class="dropdown-menu dropdown-submenu">
                     <li>
-                    <a class="dropdown-item" href="#">Submenu item 1</a>
+                    <a class="dropdown-item" href="Colegiado/conselhos/cemact/">CEMACT</a>
                     </li>
                     <li>
-                    <a class="dropdown-item" href="#">Submenu item 2</a>
-                    </li>
-                    <li>
-                    <a class="dropdown-item" href="#">Submenu item 4</a>
-                    </li>
-                    <li>
-                    <a class="dropdown-item" href="#">Submenu item 5</a>
+                    <a class="dropdown-item" href="#">CERH</a>
                     </li>
                 </ul>
             </li>
-            <li><a class="dropdown-item" href="#">Comitês</a></li>
+            <li><a class="dropdown-item" href="#">Comitês &raquo;</a>
+              <ul class="dropdown-menu dropdown-submenu">
+                <li>
+                  <a class="dropdown-item" href="Colegiado/comites/comite-de-queimadas/">Comitê de Prevenção à Queimadas</a>
+                </li>
+              </ul>
+              </li>
         </ul>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Diretorias
         </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./Diretorias/diretoria-de-recursos-hidricos/">Diretoria de Recursos Hídricos - DRHI</a></li>
             <li><a class="dropdown-item" href="./Diretorias/diretoria-de-gestao-florestal-diflor/">Diretoria de Gestão Florestal - DIFLOR</a></li>
-            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-licenciamento-e-gestao-ambiental-dlga/">Diretoria de Licenciamento e Gestão Ambiental - DLGA</a></li>
-            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-monitoramento-e-controle-ambiental-dmca/">Diretoria de Monitoramento e Controle Ambiental - DMCA</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-licenciamento-e-gestao-ambiental-dlga/">Diretoria de Licenciamento e Gestão Ambiental - DLGA  &raquo;</a>
+                <ul class="dropdown-menu dropdown-submenu">
+                    <li>
+                    <a class="dropdown-item" href="#">Diretor</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-monitoramento-e-controle-ambiental-dmca/">Diretoria de Monitoramento e Controle Ambiental - DMCA &raquo;</a>
+                <ul class="dropdown-menu dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item" href="#">Divisão de Mudanças Climáticas e Prevenção a Queimadas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Divisão de Fiscalização Ambiental</a>
+                    </li>
+                </ul>
+            </li>
             <li><a class="dropdown-item" href="./Diretorias/diretoria-administrativa-e-financeira-diraf/">Diretoria Administrativa e Financeira - DIRAF</a></li>
-            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-pesquisa-e-tecnologia-e-gestao-territorial-dptgt/">Diretoria de Pesquisa e Tecnologia e Gestão Territorial - DPTGT</a></li>
+            <li><a class="dropdown-item" href="./Diretorias/diretoria-de-pesquisa-e-tecnologia-e-gestao-territorial-dptgt/">Diretoria de Pesquisa e Tecnologia e Gestão Territorial - DPTGT &raquo;</a>
+                <ul class="dropdown-menu dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item" href="#">Diretora</a>
+                    </li>
+                </ul>
+            </li>
         </ul>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Banco de Leis
         </button>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Transparência
         </button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Controladoria</a></li>
-            <li><a class="dropdown-item" href="#">Transparência FEMARH</a></li>
+            <li><a class="dropdown-item" href="https://www.transparencia.rr.gov.br/">Controladoria</a></li>
+            <li><a class="dropdown-item" href="Transparencia/portaldatransparencia/">Transparência FEMARH</a></li>
         </ul>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Serviços
         </button>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Contato
         </button>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Ouvidoria
         </button>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">FALA BR</a></li>
+            <li><a class="dropdown-item" href="https://falabr.cgu.gov.br/publico/RR/Manifestacao/RegistrarManifestacao">FALA BR</a></li>
         </ul>
       </li>
 

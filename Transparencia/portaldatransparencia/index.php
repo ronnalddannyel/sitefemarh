@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <style>
         body {
@@ -123,6 +123,17 @@
           text-align: center;
         }
 
+        button.accordion-button {
+            background-color: #f4f3f3;
+            margin-bottom: 0.2%;
+            border-radius: 10px;
+            font-size: 45.2%;
+        }
+
+        div#flush-collapseThree a{
+            text-decoration: none;
+        }
+
         button#btns {
             color:black;
             background-color: transparent;
@@ -137,6 +148,9 @@
             background-color: #4a8a45;
             color:white;
         }
+        div.accordion-body a{
+            text-decoration: none;
+        }
 
         /* Smaller than standard 960 (devices and browsers) */
         @media only screen and (min-width: 901px) {
@@ -144,6 +158,9 @@
                 height: 33%;
             }
             div#centro {
+                margin: 1% 20% 0 20%;
+            }
+            div#sistema {
                 margin: 1% 20% 0 20%;
             }
             div#btn{
@@ -209,7 +226,7 @@
 <!-- Logo Governo / FEMARH -->
     
     <div id="topo">
-        <img src="../imagens/FEMARH-LOGO1.png" alt="">
+        <img src="../../imagens/FEMARH-LOGO1.png" alt="">
     </div>
 
 <!-- Menu Suspenso -->
@@ -338,18 +355,124 @@
 
 <div id="centro">
 
-    <h2><b>Banco de Leis</b></h2> <br><br>
+    <h2><b>Portal da Transparência - FEMARH</b></h2><br><br>
 
     <div id="btn">
-        <button type="button" class="btn btn-success" id="btns"><b>ESTATUTO FEMACT</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>RESOLUÇÕES</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>INSTRUÇÕES NORMATIVAS</b></button>
-        <button type="button" class="btn btn-success" id="btns"><b>LEIS</b></button>
+        <a href="https://www.transparencia.rr.gov.br/servidores/folha-de-pagamento"><button type="button" class="btn btn-success" id="btns"><b>FOLHA DE PAGAMENTO SERVIDORES</b></button></a>
+        <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/transparencia"><button type="button" class="btn btn-success" id="btns"><b>CONSULTA PÚBLICA DE LICENÇAS</b></button></a>
+        <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/consulta-publica"><button type="button" class="btn btn-success" id="btns"><b>MOVIMENTAÇÃO PROCESSUAL</b></button></a>
+        <a href="https://femarh.com/sistemaunico/Consultores/"><button type="button" class="btn btn-success" id="btns"><b>CONSULTORES FEMARH</b></button></a>
+        <a href="https://femarh.com/sistemaunico/"><button type="button" class="btn btn-success" id="btns"><b>SISTEMA ÚNICO</b></button></a>
     </div>
+    <br><br>
+    <h3><b>Por Diretoria</b></h3>
 
 </div>
 
+<!-- Menu Sistemas   -->
 
+<div id="sistema">
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <b>Diretoria de Licenciamento e Gestão Ambiental - DLGA</b>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <a href="https://dlaiis.femarh.com/transparencia/">Divisão de Licenciamento Ambiental e Infraestrutura, Indústria e Serviços;</a><br>
+        <a href="https://dla.femarh.com/transparencia/">Divisão de licenciamento Ambiental</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <b>Diretoria de Gestão Florestal - DIFLOR</b>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <a href="https://drive.google.com/drive/folders/1bI4DYph0qkj_mUuNxQQ2putawXyl7qQV">2015</a><br>
+            <a href="https://drive.google.com/drive/folders/1LsvfApFs-sAwGO-_8KgpRipGFGZrhCkT">2016</a><br>
+            <a href="https://drive.google.com/drive/folders/17E9XSxG48uASVFxYbuO9tO19gy5W1Imt">2017</a><br>
+            <a href="https://drive.google.com/drive/folders/1idJ_-7hzoqH0hWCN6H34x7tqXeL3VR5M">2018</a><br>
+            <a href="https://drive.google.com/drive/folders/1idJ_-7hzoqH0hWCN6H34x7tqXeL3VR5M">2019</a><br>
+            <a href="https://drive.google.com/drive/folders/1jzzzZaNBmz80Yxpvv1o8g3Iu0RCp1gCZ">2020</a>
+        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+      <b>Diretoria de Recursos Hídricos - DRHI</b>
+      </button>
+    </h2>
+    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <h6><b>Boletins qualidade da água</b></h6>
+            <a href="">2021</a><br>
+            2022(Em atualização) <br>
+            <h6><b>Boletins hidroclimáticos</b></h6>
+            <a href="https://drive.google.com/drive/folders/1Wk_sKUI6OZ7j7fLCspRXPK2zpW7FQVmS">2020</a><br>
+            <a href="https://drive.google.com/drive/folders/1aTojN2TcBDXsMOnhknS1op6zBvpBWTFu">2021</a><br>
+            <a href="https://drive.google.com/drive/folders/1chiylzzjo6t9qfr2HG1uBhO6tkM6-Ke4">2022</a>
+        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+      <b>Diretoria Administrativa e Financeira - DIRAF</b>
+      </button>
+    </h2>
+    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+        Em atualização
+        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+      <b>Diretoria de Monitoramento e Controle Ambiental – DMCA</b>
+      </button>
+    </h2>
+    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+        Em atualização
+        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <b>Diretoria de Pesquisa e Tecnologia e Gestão territorial - DPTGT</b>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <a href="https://extranet.femarh.com/siggarr/">Acessar</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading7">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+      <b>CUAJ - Comissão Única de Autoridade Julgadora</b>
+      </button>
+    </h2>
+    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+        <a href="https://cuaj.femarh.com/transparencia/">Acessar</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+</div>
 
 <!-- Base -->
 
@@ -410,7 +533,7 @@
 
 
 
-<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+<script src="../../bootstrap/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
