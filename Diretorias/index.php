@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
 </head>
 <body>
@@ -164,83 +165,108 @@
 
 </div> <!-- Final - Logo Governo / FEMARH + Menu Suspenso - TOPO -->
 
-<!-- Centro -->
+<!-- Centro   -->
 
 <div id="centro">
+    <h1><b>Diretorias</b></h1><br>
 
-    <h2><b>CARTA DE SERVIÇOS</b></h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                <img src="../imagens/luana.jpg" class="card-img-top"
+                    alt="Hollywood Sign on The Hill" />
+                <div class="card-body">
+                    <h5 class="card-title">Diretoria de Pesquisa e Tecnologia e Gestão territorial - DPTGT</h5>
+                    <p class="card-text">Luana Tabaldi</p>
+                    <p class="card-text">
+                    Email: luana.tabaldi@femarh.rr.gov.br
+                    </p>
+                    <hr>
+                    <button type="button" class="btns"><i class="bi bi-linkedin"></i></button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="../imagens/alessandra.jpg" class="card-img-top"
+                    alt="Hollywood Sign on The Hill" />
+                <div class="card-body">
+                    <h5 class="card-title">Diretoria Administrativa e Financeira - DIRAF</h5>
+                    <p class="card-text">Alessandra Sasso Campello</p>
+                    <p class="card-text">
+                    Email: diraf@femarh.rr.gov.br
+                    </p>
+                    <hr>
+                    <button type="button" class="btns"><i class="bi bi-linkedin"></i></button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="../imagens/wilson.jpg" class="card-img-top"
+                    alt="Hollywood Sign on The Hill" />
+                <div class="card-body">
+                    <h5 class="card-title">Diretoria de Monitoramento e Controle Ambiental – DMCA</h5>
+                    <p class="card-text">Wilson Jordão Mota Bezerra</p>
+                    <p class="card-text">
+                    Email: dmca@femarh.rr.gov.br
+                    </p>
+                    <hr>
+                    <button type="button" class="btns"><i class="bi bi-linkedin"></i></button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="../imagens/marta.jpg" class="card-img-top"
+                    alt="Hollywood Sign on The Hill" />
+                <div class="card-body">
+                    <h5 class="card-title">Diretoria de Recursos Hídricos - DRHI</h5>
+                    <p class="card-text">Marta Cecília Mota de M. Henchen</p>
+                    <p class="card-text">
+                    Email: drhi@femarh.rr.gov.br
+                    </p>
+                    <hr>
+                    <button type="button" class="btns"><i class="bi bi-linkedin"></i></button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="../imagens/wagner.jpg" class="card-img-top"
+                    alt="Hollywood Sign on The Hill" />
+                <div class="card-body">
+                    <h5 class="card-title">Diretoria de Licenciamento e Gestão Ambiental - DLGA</h5>
+                    <p class="card-text">Wagner Severo Nogueira</p>
+                    <p class="card-text">
+                    Email: dlga@femarh.rr.gov.br
+                    </p>
+                    <hr>
+                    <button type="button" class="btns"><i class="bi bi-linkedin"></i></button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <img src="../imagens/shirlany.jpg" class="card-img-top"
+                    alt="Hollywood Sign on The Hill" />
+                <div class="card-body">
+                    <h5 class="card-title">Diretoria de Gestão Florestal - DIFLOR</h5>
+                    <p class="card-text">Shirlany Ribeiro de Melo</p>
+                    <p class="card-text">
+                    Email: diflor@femarh.rr.gov.br
+                    </p>
+                    <hr>
+                    <button type="button" class="btns"><i class="bi bi-linkedin"></i></button>
+                </div>
+                </div>
+            </div>
+        </div>
 
-    <p><h5>A Fundação Estadual do Meio Ambiente e Recursos Hídricos de Roraima apresenta a Carta de Serviços ao Cidadão que tem como objetivo informar o cidadão dos serviços prestados pela FEMARH e os respectivos compromissos de atendimento ao público.</h5></p>
 
-    <p>Com a implantação da Carta, buscamos promover a eficiência, a qualidade e a transparência dos serviços de atendimento, bem como facilitar o acesso do público, permitindo ao cidadão que conheça os serviços prestados.</p>
-
-    <p><h6>Compromissos de Atendimento:</h6></p>
-
-    <p>
-        <ul>
-            <li>Atender o cidadão com cortesia e respeito.</li>
-            <li>Assegurar um canal de resolução de problemas e de diálogo permanente com o cidadão.</li>
-            <li>Manter uma central de atendimento telefônico, facilitando o acesso do cidadão a FEMARH.</li>
-            <li>Prestar atendimento preferencial, conforme dispõe a Lei nº 10.048/2000, e a Lei nº 10.741/2003, para gestantes; pessoas idosas (acima de 60 anos); e portadores de necessidades especiais.</li>
-            <li>Realizar campanhas internas e treinamento dos servidores, buscando continuamente excelência nos serviços de atendimento.</li>
-            <li>Utilizar instrumentos de avaliação de satisfação e de captação de sugestões, com vistas ao aperfeiçoamento dos serviços.</li>
-            <li>Divulgar dias e horários de atendimento previstos em regulamentação específica.</li>
-            <li>Facilitar e agilizar o acesso aos serviços, colocando à disposição do jurisdicionado sistemas on-line na rede mundial de computadores.</li>
-            <li>Promover a modernização da estrutura física e tecnológica das unidades de atendimento e dos canais de comunicação com o público.</li>
-            <li>Manter na rede mundial de computadores meios de acesso à informação para pessoas com necessidades especiais.</li>
-            <li>Garantir segurança e limpeza das unidades de atendimento ao público.</li>
-        </ul>
-    </p>
-
-    <p>Nossa Carta de Serviços apresenta os principais serviços oferecidos pela Fundação Estadual do Meio Ambiente e Recursos Hídricos de Roraima, as formas de acessá-los, além de outras informações importantes.</p>
-
-    <p>Seja bem-vindo(a)! Este espaço é para você!</p>
-</div>
-
-<!-- Card   -->
-
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Hollywood Sign on The Hill" />
-      <div class="card-body">
-        <h5 class="card-title">Carteira de pescador</h5>
-        <a href="./carteira-pesca/"><button type="button" class="btn btn-outline-dark">ACESSAR</button></a>
-      </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Palm Springs Road" />
-      <div class="card-body">
-        <h5 class="card-title">Licença de embarcação</h5>
-        <a href="./licenca-de-embarcacao/"><button type="button" class="btn btn-outline-dark">ACESSAR</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Los Angeles Skyscrapers" />
-      <div class="card-body">
-        <h5 class="card-title">Boletins</h5>
-        <a href="./boletins-drhi/"><button type="button" class="btn btn-outline-dark">ACESSAR</button></a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="../imagens/map.jpg" class="card-img-top"
-        alt="Los Angeles Skyscrapers" />
-      <div class="card-body">
-        <h5 class="card-title">Cadastro ambiental rural</h5>
-        <a href="./car/"><button type="button" class="btn btn-outline-dark">ACESSAR</button></a>
-      </div>
-    </div>
-  </div>
-</div>
+
+</div> <!-- Final - Centro   -->
 
 <!-- Base -->
 
@@ -286,7 +312,7 @@
         <img src="../imagens/brasao-logo.png" alt="">
     </div>
 
-    </footer>
+    </footer> <!-- Final - Base -->
 
 
 

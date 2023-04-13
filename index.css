@@ -260,7 +260,7 @@ div.card:hover {
     div#titulo{
         margin: 6% 2% 0 2%;
     }
-    button.btn {
+    #teste {
         font-size: 12px;
     }
     a.dropdown-item {

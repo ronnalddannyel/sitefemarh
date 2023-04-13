@@ -51,46 +51,20 @@ a.dropdown-item {
 
 /* Centro */
 
-div#centro p{
-    text-align: justify;
-}
-
-div#centro li{
-    text-align: justify;
-}
-
 div#centro h2{
     text-align: center;
 }
 
-div#img1 img{
-    width: 100%;
-    max-height: 230px;
+/* Menu DRHI */
+
+button.accordion-button {
+    border-left: solid 0.1px #d3d3d3;
+    border-right: solid 0.1px #d3d3d3;
 }
 
-/* Card */
-
-
-div.card-body{
-    background-color: #f7f7f7;
-    padding: 8%;
-  }
-  
-  div.card-body h5{
-    margin-bottom: 9%;
-    font-weight: bold;
-  }
-  
-  div.card-body P, h5{
-    text-align: center;
-  }
-  
-  div.card-body button{
-    margin: 10% 0 0 35%;
-  }
-  div#centro h2{
-    text-align: center;
-  }
+div.accordion-body a{
+    text-decoration: none;
+}
 
 /* Base */
 
@@ -99,7 +73,7 @@ footer {
     background-color: green;
     width: 100%;
     margin: 0;
-    margin-top: 5%;
+    margin-top: 19%;
 }
 
 div#op {
@@ -209,10 +183,10 @@ div#base-link1 h2{
         margin: 1% 20% 0 20%;
     }
 
-    /* Card */
+    /* Menu DRHI */
 
-    div.row {
-        margin: 0 20% 0 20%;
+    div#drhi {
+        margin: 1% 20% 0 20%;
     }
 
     /* Base */
@@ -266,19 +240,23 @@ div#base-link1 h2{
         margin: 2% 4% 0 4%;
         font-size: 80%;
     }
-    
-    div#centro h5{
-        font-size: 120%;
-    }
 
     div#centro h2{
         font-size: 150%;
     }
 
-    /* Card */
+    /* Menu DRHI */
 
-    div.row {
-        margin: 0 1% 0 1%;
+    div#drhi {
+        margin: 6% 4% 0 4%;
+    }
+
+    button.accordion-button {
+        font-size: 50%;
+    }
+
+    div.accordion-body {
+        font-size: 80%;
     }
 
     /* Base */
@@ -307,4 +285,3 @@ div#base-link1 h2{
     }
 
 }
-

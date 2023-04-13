@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../../../bootstrap/css/bootstrap.css" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -168,66 +169,37 @@
 
 <div id="centro">
 
-    <h4><b>Comitê Estadual de Prevenção, Controle de Queimadas e Combate aos Incêndios Florestais de Roraima</b></h4>
+    <h1>Diretor Wagner Severo Nogueira</h1> <br><br>
 
-    <p>O Comitê Estadual de Prevenção, Controle de Queimadas e Combate aos Incêndios Florestais de Roraima foi criado através do Decreto Nº. 3.321-E de 11 de dezembro de 1988 e alterado de acordo com o Decreto 5.198-E de 20 de março de 2003 e tem como objetivo conforme inciso I do Art. 5º direcionar as ações e políticas de educação, prevenção e controle de queimadas e combate a incêndios florestais.</p>
-</div>
-
-<!-- Menu Comitê   -->
-
-<div id="comite">
-
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        <b>Objetivos do Comitê</b>
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        <p>
-            <ol>
-                <li>Direcionar as ações e políticas de educação e controle de queimadas e combate aos incêndios florestais;</li>
-                <li>Elaborar plano emergencial de controle de queimadas e combate aos incêndios florestais;</li>
-                <li>Apoiar na elaboração de um plano de ação para municípios situados na área atingida pelos incêndios florestais;</li>
-                <li>Indicar áreas de maior risco de ocorrência de incêndios;</li>
-                <li>Articular as ações de fiscalização e educação ambiental relacionadas às queimadas;</li>
-                <li>Utilizar as informações produzidas e sistematizadas pela Sala de Situação, na tomada de decisões quanto às ações relacionadas às queimadas e na divulgação dos graus de risco de incêndio florestal.</li>
-            </ol>            
+    <div class="col">
+    <div class="card">
+      <img src="../../../imagens/luana.jpg" class="card-img-top"
+        alt="Hollywood Sign on The Hill" />
+      <div class="card-body">
+        <h5 class="card-title"><b>Luana Tabaldi</b></h5>
+        <p class="card-text">
+        Diretora
         </p>
       </div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-      <b>Membros do Comitê</b>
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">
-            <p>
-                Fundação Estadual de Meio Ambiente, Ciência e Tecnologia de Roraima <br>
-                Secretaria de Estado de Agricultura e Abastecimento <br>
-                Defesa Civil <br>
-                Instituto de Terras e Colonização de Roraima <br>
-                Secretaria de Estado do Índio  <br>
-                Grupo de Trabalho Amazônico  <br>
-                Federação dos Trabalhadores na Agricultura em Roraima <br>
-                Central dos Assentados de Roraima <br>
-                Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis <br>
-                Instituto Nacional de Colonização e Reforma Agrária <br>
-                Instituto Nacional de Pesquisas da Amazônia <br>
-                Empresa Brasileira de Pesquisas Agropecuária <br>
-                Fundação Nacional do Índio 
-            </p>
-        </div>
-    </div>
-  </div>
-</div>
 
-</div>
+    <div class="paragrafo">
+        <p>Natural de Ronda Alta – RS, <b>Luana</b> é Engenheira Florestal, formada pela Universidade Federal de Santa Maria – UFSM, campus de Frederico Westphalen em janeiro de 2017. Após a conclusão da graduação a mesma atuou como:</p>
+        <p>
+          <ul>
+            <li>Analista Ambiental – Auxiliar Técnica I no Inventário Florestal Nacional no Estado de Pernambuco, até dezembro de 2017;</li>
+            <li>Analista Ambiental – Supervisora de Campo do PROJETO CERRADO FEDERAL (COMPONENTE 2) – Realização de CAR em municípios do Cerrado Maranhense para imóveis de até 4 módulos fiscais e imóveis de Povos e Comunidades Tradicionais (PCT), tendo como principais atividades a realização de 8.100 cadastros ambientais rurais – CAR, de 5.600 imóveis rurais, e de 32 territórios, abrangendo 2.500 famílias de Comunidades de Povos e Comunidades Tradicionais (PCTs), até março de 2018;</li>
+            <li>Analista Ambiental – Líder de Equipe na realização do Inventário Florestal Nacional de Florestas Plantadas no Estado do Paraná, atuando nos levantamentos de dados a campo, atividades de planejamento dos trabalhos desenvolvidos, entre fevereiro de 2019 a março de 2019;</li>
+            <li>Analista Ambiental – Técnica de campo na realização de CAR dos Territórios de Povos e Comunidades Tradicionais existentes no Estado do Paraná, segmento Pescadores e Pescadoras Artesanais, de abril de 2019 a junho de 2019;</li>
+            <li>Analista Ambiental – Membro da equipe técnica de campo responsável pela realização de inscrições de imóveis rurais com até quatro módulos fiscais no Cadastro Ambiental Rural (CAR) no Sistema de Cadastro Ambiental Rural (SICAR), em 53 (cinquenta e três) municípios, inseridos no bioma Cerrado e pertencentes ao estado do Piauí, de julho de 2019 a fevereiro de 2020;</li>
+            <li>Analista Ambiental – Coordenadora de Equipes, no Projeto CAR Roraima para elaboração de Cadastro Ambiental Rural (CAR) em áreas cadastráveis de imóveis rurais de até quatro módulos fiscais, priorizando a agricultura familiar, no Estado de Roraima, abrangendo 9 municípios, totalizando 14.249 inscrições no SICAR, sendo 10.028 lotes localizados em 16 Projetos de Assentamentos da Reforma Agrarias e 4.221 imóveis rurais localizados fora de Projetos de Assentamento (PAs), de março de 2020 a dezembro de 2020;</li>
+          </ul>
+        </p>
+        <p>Em março de 2021, ingressou na Fundação Estadual de Meio Ambiente e Recursos Hídricos do Estado de Roraima, atuando a Divisão de Monitoramento e Controle Ambiental, em geoprocessamento de informações ambientais, e em fevereiro de 2022 tornou-se Diretora de Pesquisa e Tecnologia em Gestão Territorial, que vem atuando na gestão do  CAR – Cadastro Ambiental Rural, criação do Banco de Informações Geográficas e Gestão Ambiental do Estado de Roraima – SIGGARR, gestão das Unidades de Conservação, e demais atividades inerentes a execução da política ambiental, de competência desta Fundação.</p>
+    </div>
+
+</div> <!-- Final - Centro  -->
 
 <!-- Base -->
 
@@ -273,7 +245,7 @@
         <img src="../../../imagens/brasao-logo.png" alt="">
     </div>
 
-    </footer>
+    </footer> <!-- Final - Base -->
 
 
 

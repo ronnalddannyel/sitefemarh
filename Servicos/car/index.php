@@ -33,16 +33,14 @@
         
 
       <li class="nav-item active">
-        <a href="./index.php">
-        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <a class="nav-link" href="../../index.php" id="teste">
             Home
-        </button>
         </a>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Institucional
         </button>
         <ul class="dropdown-menu">
@@ -55,7 +53,7 @@
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Colegiado
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -82,26 +80,26 @@
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
-            Diretorias
-        </button>
+        <a class="nav-link dropdown-toggle" href="../../Diretorias/" aria-expanded="false" id="teste">
+          Diretorias
+        </a>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="../../Diretorias/diretoria-de-recursos-hidricos/">Diretoria de Recursos Hídricos - DRHI</a></li>
             <li><a class="dropdown-item" href="../../Diretorias/diretoria-de-gestao-florestal-diflor/">Diretoria de Gestão Florestal - DIFLOR</a></li>
             <li><a class="dropdown-item" href="../../Diretorias/diretoria-de-licenciamento-e-gestao-ambiental-dlga/">Diretoria de Licenciamento e Gestão Ambiental - DLGA  &raquo;</a>
                 <ul class="dropdown-menu dropdown-submenu">
                     <li>
-                    <a class="dropdown-item" href="#">Diretor</a>
+                    <a class="dropdown-item" href="../../Diretorias/diretoria-de-licenciamento-e-gestao-ambiental-dlga/diretor-wagner/">Diretor</a>
                     </li>
                 </ul>
             </li>
             <li><a class="dropdown-item" href="../../Diretorias/diretoria-de-monitoramento-e-controle-ambiental-dmca/">Diretoria de Monitoramento e Controle Ambiental - DMCA &raquo;</a>
                 <ul class="dropdown-menu dropdown-submenu">
                     <li>
-                      <a class="dropdown-item" href="#">Divisão de Mudanças Climáticas e Prevenção a Queimadas</a>
+                      <a class="dropdown-item" href="../../Diretorias/diretoria-de-monitoramento-e-controle-ambiental-dmca/divisao-de-mudancas-climaticas-e-prevencao-a-queimadas/">Divisão de Mudanças Climáticas e Prevenção a Queimadas</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Divisão de Fiscalização Ambiental</a>
+                      <a class="dropdown-item" href="../../Diretorias/diretoria-de-monitoramento-e-controle-ambiental-dmca/divisaodefiscalizacaoambiental/">Divisão de Fiscalização Ambiental</a>
                     </li>
                 </ul>
             </li>
@@ -109,7 +107,7 @@
             <li><a class="dropdown-item" href="../../Diretorias/diretoria-de-pesquisa-e-tecnologia-e-gestao-territorial-dptgt/">Diretoria de Pesquisa e Tecnologia e Gestão Territorial - DPTGT &raquo;</a>
                 <ul class="dropdown-menu dropdown-submenu">
                     <li>
-                      <a class="dropdown-item" href="#">Diretora</a>
+                      <a class="dropdown-item" href="../../Diretorias/diretoria-de-pesquisa-e-tecnologia-e-gestao-territorial-dptgt/luana-tabaldi/">Diretora</a>
                     </li>
                 </ul>
             </li>
@@ -118,41 +116,41 @@
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
-            Banco de Leis
-        </button>
+        <a class="nav-link" href="../../Banco-de-leis/" id="teste">
+          Banco de Leis
+        </a>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
+        <button type="button" class="btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
             Transparência
         </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://www.transparencia.rr.gov.br/">Controladoria</a></li>
-            <li><a class="dropdown-item" href="Transparencia/portaldatransparencia/">Transparência FEMARH</a></li>
+            <li><a class="dropdown-item" href="../../Transparencia/portaldatransparencia/">Transparência FEMARH</a></li>
         </ul>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
-            Serviços
-        </button>
+        <a class="nav-link" href="../../Servicos/" id="teste">
+          Serviços
+        </a>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
-            Contato
-        </button>
+        <a class="nav-link" href="../../Contato/" id="teste">
+          Contato
+        </a>
       </li>
 
 
       <li class="nav-item dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="teste">
-            Ouvidoria
-        </button>
+        <a class="nav-link dropdown-toggle" href="http://ouvidoria.rr.gov.br/" aria-expanded="false" id="teste" target="_blank">
+          Ouvidoria
+        </a>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://falabr.cgu.gov.br/publico/RR/Manifestacao/RegistrarManifestacao">FALA BR</a></li>
         </ul>
@@ -175,13 +173,13 @@
 <nav >
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
         <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-            type="button" role="tab" aria-controls="nav-home" aria-selected="true">Apresentação</button>
+            type="button" role="tab" aria-controls="nav-home" aria-selected="true"><b>Apresentação</b></button>
         <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Descrição</button>
+            type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><b>Descrição</b></button>
         <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Execução</button>
+            type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><b>Execução</b></button>
         <button class="nav-link" id="nav-ebooks-tab" data-bs-toggle="tab" data-bs-target="#nav-ebooks"
-        type="button" role="tab" aria-controls="nav-ebooks" aria-selected="false">Acervo</button>
+        type="button" role="tab" aria-controls="nav-ebooks" aria-selected="false"><b>Acervo</b></button>
     </div>
 </nav>
 <div class="tab-content" id="nav-tabContent" >
@@ -242,7 +240,7 @@
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
 
         <h2>Valor total desembolsado em relação ao valor do apoio do fundo Amazônia</h2>
-        <p>100%</p><br> 
+        <p style="text-align: center;">100%</p><br> 
 
         <p>ATIVIDADES REALIZADAS</p><br> 
         <p><b>COMPONENTE 1 –</b> Inscrição de 14.249 imóveis rurais no Cadastro Ambiental Rural</p>

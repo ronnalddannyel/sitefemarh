@@ -67,6 +67,10 @@ div.paragrafo p{
     text-align: justify;
 }
 
+div.card-body p, h5{
+    text-align: center;
+}
+
 /* Base */
 
 footer {
@@ -232,7 +236,7 @@ div#base-link1 h2{
         min-width: 300px;
     }
 
-    button.btn {
+    #teste {
         font-size: 12px;
     }
 
