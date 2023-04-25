@@ -211,7 +211,7 @@ div.card:hover {
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (min-width: 901px) {
     footer{
-        height: 33%;
+        height: 38%;
     }
     div#sistema {
         margin: 1% 20% 0 20%;

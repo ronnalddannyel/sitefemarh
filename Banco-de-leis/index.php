@@ -134,9 +134,12 @@
 
 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="../Servicos/" id="teste">
+        <a class="nav-link dropdown-toggle" href="../Servicos/" aria-expanded="false" id="teste">
           Serviços
         </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Servicos/aplicativo/">Aplicativos</a></li>
+        </ul>
       </li>
 
 
@@ -171,7 +174,7 @@
     <h2><b>Banco de Leis</b></h2> <br>
 
     <div id="btn">
-        <a href=""><button type="button" class="btn btn-success" id="btns"><b>ESTATUTO FEMACT</b></button></a>
+        <a href="../Download/banco_de_leis/ESTATUTO-FEMACT.pdf"><button type="button" class="btn btn-success" id="btns"><b>ESTATUTO FEMACT</b></button></a>
         <a href=""><button type="button" class="btn btn-success" id="btns"><b>RESOLUÇÕES</b></button></a>
         <a href="./instrucoes-normativas/"><button type="button" class="btn btn-success" id="btns"><b>INSTRUÇÕES NORMATIVAS</b></button></a>
         <a href="./leis/"><button type="button" class="btn btn-success" id="btns"><b>LEIS</b></button></a>

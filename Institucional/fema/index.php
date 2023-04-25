@@ -135,9 +135,12 @@
 
 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="../../Servicos/" id="teste">
+        <a class="nav-link dropdown-toggle" href="../../Servicos/" aria-expanded="false" id="teste">
           Serviços
         </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../../Servicos/aplicativo/">Aplicativos</a></li>
+        </ul>
       </li>
 
 
@@ -189,7 +192,7 @@
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-        <a href="">DECRETO N° 5.471-E, DE 29 DE AGOSTO DE 2003.</a>
+        <a href="../../Download/fema/DECRETO-N°-5.471-E-DE-29-DE-AGOSTO-DE-2003..pdf" target=”_blank”>DECRETO N° 5.471-E, DE 29 DE AGOSTO DE 2003.</a>
 
       </div>
     </div>

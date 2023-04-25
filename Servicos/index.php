@@ -134,9 +134,12 @@
 
 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="../Servicos/" id="teste">
+        <a class="nav-link dropdown-toggle" href="../Servicos/" aria-expanded="false" id="teste">
           Serviços
         </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Servicos/aplicativo/">Aplicativos</a></li>
+        </ul>
       </li>
 
 

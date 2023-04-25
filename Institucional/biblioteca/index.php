@@ -134,9 +134,12 @@
 
 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="../../Servicos/" id="teste">
+        <a class="nav-link dropdown-toggle" href="../../Servicos/" aria-expanded="false" id="teste">
           Serviços
         </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../../Servicos/aplicativo/">Aplicativos</a></li>
+        </ul>
       </li>
 
 
@@ -194,7 +197,7 @@
                     <p class="card-text">
                     Relatório de Impacto Ambiental
                     </p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA_FINAL_BONFIM.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -207,7 +210,7 @@
                     <p class="card-text">
                     Relatório de Impacto Ambiental
                     </p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA_FINAL_CANT.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -218,7 +221,7 @@
                 <div class="card-body">
                     <h5 class="card-title">RIMA – Pau Rainha</h5>
                     <p class="card-text">Relatório de Impacto Ambiental</p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA_UTE_PAU_RAINHA.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -229,7 +232,7 @@
                 <div class="card-body">
                     <h5 class="card-title">RIMA – Santa Luz</h5>
                     <p class="card-text">Relatório de Impacto Ambiental</p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA_UTE-SANTA-LUZ.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -240,7 +243,7 @@
                 <div class="card-body">
                     <h5 class="card-title">RIMA – Palmaplan Energia</h5>
                     <p class="card-text">Relatório de Impacto Ambiental</p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA-CG-Palmaplan-Energia.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -253,7 +256,7 @@
                     <p class="card-text">
                     Relatório de Impacto Ambiental
                     </p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA-UTE-BBF-BALIZA-FINAL.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -264,7 +267,7 @@
                 <div class="card-body">
                     <h5 class="card-title">RIMA – São Jaoquim</h5>
                     <p class="card-text">Relatório de Impacto Ambiental</p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA-UTE-FORTE-SAO-JOAQUIM-BioFuels.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -277,7 +280,7 @@
                     <p class="card-text">
                     Relatório de Impacto Ambiental
                     </p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/RIMA/RIMA-UTE-JAGUATIRICA-II.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -302,7 +305,7 @@
                     <p class="card-text">
                     MANUAL DO USUÁRIO
                     </p>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/MANUAIS/Manual.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -318,7 +321,7 @@
                     alt="Hollywood Sign on The Hill" />
                 <div class="card-body2">
                     <h5 class="card-title">DIREITOS DE PROPRIEDADE NO BRASIL RURAL</h5>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/E-BOOKS/Direitos_de_Propriedade_no_Brasil_Rural_CPI_FinalPT.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -328,7 +331,7 @@
                     alt="Palm Springs Road" />
                 <div class="card-body2">
                     <h5 class="card-title">REGULARIZAÇÃO FUNDIÁRIA</h5>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/E-BOOKS/Regularizacao_fundiaria_experiencias_regionais.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -338,7 +341,7 @@
                     alt="Los Angeles Skyscrapers" />
                 <div class="card-body2">
                     <h5 class="card-title">Os territórios indígenas e tradicionais protegem a biodiversidade?</h5>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/E-BOOKS/povostradicionais5.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -348,7 +351,7 @@
                     alt="Los Angeles Skyscrapers" />
                 <div class="card-body2">
                     <h5 class="card-title">PANORAMA DOS DIREITOS DE PROPRIEDADE NO BRASIL RURAL</h5>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/E-BOOKS/Panorama_dos_direitos_de_propriedade_no_Brasil_rural_CPI.pdf"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>
@@ -358,7 +361,7 @@
                     alt="Los Angeles Skyscrapers" />
                 <div class="card-body2">
                     <h5 class="card-title">GOVERNANÇA DA TERRA E SUSTENTABILIDADE DIGITAL 2</h5>
-                    <button type="button" class="btn btn-outline-dark">BAIXAR</button>
+                    <a href="../../Download/biblioteca/E-BOOKS/Captura-de-tela-2023-02-02-125829.png"><button type="button" class="btn btn-outline-dark">BAIXAR</button></a>
                 </div>
                 </div>
             </div>

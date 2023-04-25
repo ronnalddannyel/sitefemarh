@@ -181,7 +181,7 @@ div#base-link1 h2{
 
     .container {
         float: left;
-        width: 61%;
+        width: auto;
     }
 
     .dropdown-menu .dropdown-submenu {
@@ -214,6 +214,34 @@ div#base-link1 h2{
         height: 33%;
     }
 
+}
+
+@media only screen and (min-width: 901px ) and (max-width: 1700px ){
+
+    /* Menu Suspenso */
+
+    #teste {
+        font-size: 90%;
+    }
+
+    div#centro {
+        margin: 1% 15% 0 15%;
+    }
+
+    /* Card */
+
+    div.row {
+        margin: 0 15% 0 15%;
+    }
+    /* Base */
+
+    footer{
+        height: 38%;
+    }
+
+    div#base-link h6{
+        font-size: 85%;
+    }
 }
 
 /* All Mobile Sizes (devices and browser) */

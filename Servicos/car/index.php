@@ -134,9 +134,12 @@
 
 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="../../Servicos/" id="teste">
+        <a class="nav-link dropdown-toggle" href="../../Servicos/" aria-expanded="false" id="teste">
           Serviços
         </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../../Servicos/aplicativo/">Aplicativos</a></li>
+        </ul>
       </li>
 
 
@@ -257,10 +260,10 @@
         <h6>Confira a execução física e financeira do projeto:</h6><br>
 
         <div id="btn">
-            <a href="https://www.transparencia.rr.gov.br/servidores/folha-de-pagamento"><button type="button" class="btn btn-success" id="btns"><b>QUADRO DE USOS E FONTES DETALHADO</b></button></a>
-            <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/transparencia"><button type="button" class="btn btn-success" id="btns"><b>RELAÇÃO DE PAGAMENTOS</b></button></a>
-            <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/consulta-publica"><button type="button" class="btn btn-success" id="btns"><b>GRAU PERCENTUAL DE EXECUÇÃO FÍSICA</b></button></a>
-            <a href="https://femarh.com/sistemaunico/Consultores/"><button type="button" class="btn btn-success" id="btns"><b>TOTAL DE IMÓVEIS</b></button></a>
+            <a href="../../Download/car/execucao/quadro-de-usos-e-fontes-detalhado.pdf"><button type="button" class="btn btn-success" id="btns"><b>QUADRO DE USOS E FONTES DETALHADO</b></button></a>
+            <a href="../../Download/car/execucao/relao-de-pagamentos.pdf"><button type="button" class="btn btn-success" id="btns"><b>RELAÇÃO DE PAGAMENTOS</b></button></a>
+            <a href="../../Download/car/execucao/grau-percentual-de-execuo-fsica.pdf"><button type="button" class="btn btn-success" id="btns"><b>GRAU PERCENTUAL DE EXECUÇÃO FÍSICA</b></button></a>
+            <a href="../../Download/car/execucao/total-de-imveis.pdf"><button type="button" class="btn btn-success" id="btns"><b>TOTAL DE IMÓVEIS</b></button></a>
         </div>
 
 
@@ -279,16 +282,16 @@
         <p>Pequenos proprietários ou posseiros rurais familiares (imóveis de até quatro módulos fiscais) que desenvolvam atividades agrossilvipastoris, incluindo assentados de reforma agrária do estado de Roraima, bem como o estado de Roraima, por meio das ações de capacitação, aprimoramento de infraestrutura, adequação de base legal e elaboração do Plano Estadual de Recuperação de Áreas de Preservação Permanente (APPs) e Reserva Legal (RL).</p>
 
         <div id="btn">
-            <a href="https://www.transparencia.rr.gov.br/servidores/folha-de-pagamento"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 004_2019</b></button></a>
-            <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/transparencia"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 007_2020</b></button></a>
-            <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/consulta-publica"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 008_2020</b></button></a>
-            <a href="https://femarh.com/sistemaunico/Consultores/"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 009_2020</b></button></a>
-            <a href="https://femarh.com/sistemaunico/"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 010_2020</b></button></a>
-            <a href="https://www.transparencia.rr.gov.br/servidores/folha-de-pagamento"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 011_2019</b></button></a>
-            <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/transparencia"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 012_2020</b></button></a>
-            <a href="https://licenciaja.femarh.rr.gov.br/licenciaja/consulta-publica"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 013_2020</b></button></a>
-            <a href="https://femarh.com/sistemaunico/Consultores/"><button type="button" class="btn btn-success" id="btns"><b>ADITIVO CONTRATO N 004_2019</b></button></a>
-            <a href="https://femarh.com/sistemaunico/"><button type="button" class="btn btn-success" id="btns"><b>CONTRATO DE CONCESSÃO DE COLABORAÇÃO FINANCEIRA NÃO REEMBOLSÁVEL N° 14.2.1016.1</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 004_2019</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 007_2020</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 008_2020</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 009_2020</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 010_2020</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 011_2019</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 012_2020</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO N 013_2020</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>ADITIVO CONTRATO N 004_2019</b></button></a>
+            <a href=""><button type="button" class="btn btn-success" id="btns"><b>CONTRATO DE CONCESSÃO DE COLABORAÇÃO FINANCEIRA NÃO REEMBOLSÁVEL N° 14.2.1016.1</b></button></a>
         </div>
 
     </div>

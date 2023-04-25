@@ -134,9 +134,12 @@
 
 
       <li class="nav-item dropdown">
-        <a class="nav-link" href="../../Servicos/" id="teste">
+        <a class="nav-link dropdown-toggle" href="../../Servicos/" aria-expanded="false" id="teste">
           Serviços
         </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../../Servicos/aplicativo/">Aplicativos</a></li>
+        </ul>
       </li>
 
 
@@ -185,7 +188,7 @@
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-        <a href="">LEI-ORDINARIA-1540-2021-RORAIMA-RR</a> <br>
+        <a href="../../Download/leis/leis_ordinarias/Lei-ordinaria-1540-2021-Roraima-RR.pdf">LEI-ORDINARIA-1540-2021-RORAIMA-RR</a> <br>
       </div>
     </div>
   </div>
@@ -197,7 +200,7 @@
     </h2>
     <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading18" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-        <a href="">LEI COMPLEMENTAR N. 323, DE 2 DE AGOSTO DE 2022</a>
+        <a href="../../Download/leis/leis_complementares/LEI-COMPLEMENTAR-N.-323-DE-2-DE-AGOSTO-DE-2022-ZEE.pdf">LEI COMPLEMENTAR N. 323, DE 2 DE AGOSTO DE 2022</a>
       </div>
     </div>
 
