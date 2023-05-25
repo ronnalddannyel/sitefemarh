@@ -66,6 +66,12 @@ div.accordion-body a{
     text-decoration: none;
 }
 
+.tab-pane {
+    padding: 2%;
+}
+
+.tab-content .tab-pane{ border:solid 1px #d3d3d3;  border-top: 0; padding-bottom: 2%  }
+
 /* Base */
 
 footer {

@@ -290,7 +290,33 @@
     </div>
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
     
-
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="border-top: solid 0.1px #d3d3d3;">
+                <b>Artigos</b>
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <a href="../../Download/biblioteca/ARTIGOS/CheckList_article_20679-CAMAROES-RORAIMA.pdf">1 - CheckList_article_20679 CAMARÕES RORAIMA</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/CAPITULO-LIVRO-EXPERIENCIAS-DA-EDUCACAO-INTER-MULTI-TRANS-DISCIPLINARIDADE-2022.pdf">2 - CAPÍTULO LIVRO EXPERIÊNCIAS DA EDUCAÇÃO – INTER MULTI TRANS DISCIPLINARIDADE 2022</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/CAPITULO-LIVRO-EXPERIENCIAS-DA-EDUCACAO-AS-CONTRIBUICOES-DE-HUME-2022.pdf">3 - CAPÍTULO LIVRO EXPERIÊNCIAS DA EDUCAÇÃO -AS CONTRIBUIÇÕES DE HUME 2022</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/CAPITULO-LIVRO-ALFABETIZACAO-ECOLOGICA-NA-AMAZONIA-VONTOBEL_-CASTRO-FLORES-2021.pdf">4 - CAPÍTULO LIVRO ALFABETIZAÇÃO ECOLÓGICA NA AMAZÔNIA VONTOBEL_ CASTRO & FLORES 2021</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/CAPITULO-LIVRO-ALFABETIZACAO-CIENTIFICA-MAGALHAES-CASTRO-2021.pdf">5 - CAPÍTULO LIVRO ALFABETIZAÇÃO CIENTÍFICA MAGALHÃES & CASTRO 2021</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/CAPACIDADE-DE-CARGA-DE-PESCA-ESPORTIVA-NO-RIO-GUA-BOA-ROBSON-OLIVEIRA-DE-SOUZA-1.pdf">6 - CAPACIDADE DE CARGA DE PESCA ESPORTIVA NO RIO GUA BOA – ROBSON OLIVEIRA DE SOUZA (1)</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/BOLMIRR-122-Vontobel-et-al-2018.pdf">7 - BOLMIRR-122-Vontobel-et-al 2018</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/ARTIGO-Epistemologia-de-Larry-Laudan-Ambiente-e-Desenvolvimento-UERR-2022.pdf">8 - ARTIGO Epistemologia de Larry Laudan Ambiente e Desenvolvimento UERR 2022</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/13462-Artigo-Cientifico-60685-1-10-20220830-MARCUSE-REVISTA-REAMEC-2022.pdf">9 - 13462-Artigo Científico-60685-1-10-20220830 MARCUSE REVISTA REAMEC 2022</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/13212-Artigo-Cientifico-59348-1-10-20220705-REVISTA-REAMEC-2022.pdf">10 - 13212-Artigo Científico-59348-1-10-20220705 REVISTA REAMEC 2022</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/2018c-Zanetti-et-al_FWCrabsFromRoraima.pdf">11 - 2018c Zanetti et al_FWCrabsFromRoraima</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/887-ARTIGO-BOLMIRR-CENTRO-DE-TRIAGEM-DE-ANIMAIS-SILVESTRES-2537-1-10-20201225.pdf">12 - 887-ARTIGO BOLMIRR CENTRO DE TRIAGEM DE ANIMAIS SILVESTRES-2537-1-10-20201225</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/886-ARTIGO-ALFABETIZACAO-ECOLOGICA-NA-AMAZONIA-2464-2-10-20201226.pdf">13 - 886-ARTIGO ALFABETIZAÇÃO ECOLÓGICA NA AMAZÔNIA 2464-2-10-20201226</a> <br>
+                <a href="../../Download/biblioteca/ARTIGOS/885-ARTIGO-MARCIA-EDUCACAO-INFANTIL-2538-1-10-20201225.pdf">14 - 885-ARTIGO MÁRCIA EDUCAÇÃO INFANTIL 2538-1-10-20201225</a>
+            </div>
+            </div>
+        </div>
+    </div>
 
     </div>
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">

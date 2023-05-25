@@ -5,15 +5,23 @@ body {
     box-sizing: border-box; 
 }
 
+
+/* Carrossel */
+
 div.carousel-inner {
     max-height: 400px;
 }
+
+
+/* Logo Governo / FEMARH - TOPO */
 
 #topo{
     width: 100%;
     height: 100%;
     padding: 20px;
 }
+
+/* Menu Suspenso */
 
 #teste {
     background-color: transparent;
@@ -45,88 +53,19 @@ a.dropdown-item {
     padding: 15px;
 }
 
-footer {
-    position: absolute;
-    background-color: green;
-    width: 100%;
-    margin: 0;
-    margin-top: 3%;
+.dropdown:hover>.dropdown-menu{
+    display: block;
 }
 
-div#op {
-    display: inline-block;
-    width: 33.30%;
-    height: 100%;
-    float: left;
-}
-/*
-div#op img{
-    width: 245px;
-    height: 80px;
-    margin-top: 22%;
-    margin-left: 22%;
-}
-*/
-div#op img{
-    width: 45%;
-    height: 27%%;
-    margin-top: 22%;
-    margin-left: 22%;
+.dropdown-menu li {
+    position: relative;
 }
 
-div#op1 {
-    display: inline-block;
-    width: 33.30%;
-    height: 100%;
-    float: left;
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
 }
 
-div#op2 {
-    display: inline-block;
-    width: 33.30%;
-    height: 100%;
-}
-/*
-div#op2 img{
-    width: 270px;
-    height: 100px;
-    margin-top: 21%;
-    margin-left: 22%;
-}
-*/
-div#op2 img{
-    width: 45%;
-    height: 27%%;
-    margin-top: 21%;
-    margin-left: 22%;
-}
-
-div#opt{
-    margin-top: 15%;
-}
-
-div#base-link a {
-    text-decoration: none;
-}
-
-div#base-link h6{
-    padding: 10px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-weight: bold;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-div#base-link1 h6{
-    padding: 10px;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
+/* Menu Sistemas */
 
 button.accordion-button {
     background-color: #f4f3f3;
@@ -146,10 +85,10 @@ button#btns {
     margin: 1.5%;
   }
 
-  button#btns:hover {
+button#btns:hover {
     background-color: #4a8a45;
     color:white;
-  }
+}
 
 button.accordion-button h5 {
     width: 100%;
@@ -159,6 +98,9 @@ button.accordion-button h5 {
 div.accordion-body {
     padding: 5%;
 }
+
+
+/* CARDS */
 
 div.card-body {
     padding: 9%;
@@ -193,42 +135,94 @@ div.card:hover {
     box-shadow: 0 0 13px rgba(0,0,0,0.6);
 }
 
-.dropdown:hover>.dropdown-menu{
-    display: block;
+
+/* Base */
+
+footer {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
 }
 
-.dropdown-menu li {
-    position: relative;
+div#op {
+    display: inline-block;
+    width: 33.30%;
+    height: 100%;
+    float: left;
 }
 
+div#op img{
+    width: 45%;
+    height: 26%;
+    margin-top: 22%;
+    margin-left: 22%;
+}
 
+div#op1 {
+    display: inline-block;
+    width: 33.30%;
+    height: 100%;
+    float: left;
+}
 
-.dropdown-menu > li:hover > .dropdown-submenu {
-    display: block;
+div#op2 {
+    display: inline-block;
+    width: 33.30%;
+    height: 100%;
+}
+
+div#op2 img{
+    width: 45%;
+    height: 34%;
+    margin-top: 22%;
+    margin-left: 22%;
+}
+
+div#opt{
+    margin-top: 15%;
+}
+
+div#base-link a {
+    text-decoration: none;
+}
+
+div#base-link h6{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+div#base-link1 h6{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (min-width: 901px) {
-    footer{
-        height: 38%;
+
+    /* Carrossel */
+
+
+    /* Logo Governo / FEMARH - TOPO */
+
+    #topo img{
+        width: 21%;
+        height: 21%;
     }
-    div#sistema {
-        margin: 1% 20% 0 20%;
-    }
-    div.row {
-        margin: 1% 20% 0 20%;
-    }
-    div#pages {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 3% 0 0 0;
-    }
-    div#titulo{
-        margin: 6% 20% 0 20%;
-    }
+
+    /* Menu Suspenso */
+
     .dropdown-menu .dropdown-submenu {
         display: none;
         position: absolute;
@@ -240,26 +234,82 @@ div.card:hover {
         right: 100%;
         left: auto;
     }
-    #topo img{
-        width: 21%;
-        height: 21%;
+
+
+    /* Menu Sistemas */
+    
+    div#sistema {
+        margin: 1% 20% 0 20%;
     }
+    
+    /* CARDS */
+
+    div.row {
+        margin: 1% 20% 0 20%;
+    }
+
+    div#pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3% 0 0 0;
+    }
+
+    div#titulo{
+        margin: 6% 20% 0 20%;
+    }
+
+    /* Base */
+
+    footer{
+        height: 38%;
+    }
+
+
 }
+
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 900px) {
+
+    /* Carrossel */
+
+
+    /* Logo Governo / FEMARH - TOPO */
+
+
+    /* Menu Suspenso */
+
+
+    /* Menu Sistemas */
+
+    div#sistema {
+        margin: 1% 5% 0 5%;
+    }
+
+    /* CARDS */
+
+    div.row {
+        margin: 3% 3% 3% 3%;
+    }
+    div#titulo{
+        margin: 6% 5% 0 5%;
+    }
+
+
+    /* Base */
+
     footer{
         height: 25%;
     }
+
+
+
     button#btns {
         font-size: 70%;
     }
-    div.row {
-        margin: 3% 1% 3% 1%;
-    }
-    div#titulo{
-        margin: 6% 2% 0 2%;
-    }
+
     #teste {
         font-size: 12px;
     }

@@ -101,6 +101,18 @@ button.nav-link {
 
 .tab-content .tab-pane{ border:solid 1px #d3d3d3;  border-top: 0; padding-bottom: 2%  }
 
+#nav-profile {
+    padding: 2%;
+}
+
+button.accordion-button {
+    border: solid 0.1px #d3d3d3;
+}
+
+div.accordion-body a{
+    margin-bottom: 2%;
+}
+
 /* Base */
 
 footer {
@@ -240,6 +252,8 @@ div#base-link1 h2{
         font-size: 90%;
     }
 
+    /* Centro */
+
     div#centro {
         margin: 1% 15% 0 15%;
     }
@@ -306,6 +320,14 @@ div#base-link1 h2{
 
     div.nav button{
         font-size: 12px;
+    }
+
+    button.accordion-button {
+        font-size: 50%;
+    }
+
+    div.accordion-body {
+        font-size: 80%;
     }
 
     /* Organograma */
